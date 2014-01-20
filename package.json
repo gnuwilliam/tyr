@@ -1,0 +1,11 @@
+{
+  "name": "tyr",
+  "description": "Simple testing with mocha",
+  "version: "0.0.1",
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+    "colors": "*",
+    "nodemon": "*"
+  }
+}
