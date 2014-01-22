@@ -1,5 +1,5 @@
 function simpleCalc(a, b) {
-  return 2;
+  return a + b;
 }
 
 module.exports.simpleCalc = simpleCalc;
