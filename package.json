@@ -11,5 +11,8 @@
     "colors": "*",
     "nodemon": "*",
     "mocha": "*"
+  },
+  "scripts": {
+    "test": "make test"
   }
 }
