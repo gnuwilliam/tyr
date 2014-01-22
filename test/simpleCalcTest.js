@@ -19,4 +19,8 @@ suite('simpleCalc', function () {
     assert.equal(-11, simpleCalc(-1, -10));
   });
 
+  test('a + b shoud return You must specify a number - error', function () {
+  	assert.equal('You must specify a number!', simpleCalc('a', 'b'));
+  });
+
 });
