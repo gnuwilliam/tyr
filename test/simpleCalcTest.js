@@ -20,7 +20,7 @@ suite('simpleCalc', function () {
   });
 
   test('a + b shoud return You must specify a number - error', function () {
-  	assert.equal('You must specify a number!', simpleCalc('a', 'b'));
+    assert.equal('You must specify a number!', simpleCalc('a', 'b'));
   });
 
 });
